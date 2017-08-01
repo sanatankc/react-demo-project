@@ -1,6 +1,7 @@
 {
   "name": "hacker_news",
   "version": "0.1.0",
+  "<h></h>omepage": "https://sanatankumar.github.io/react-demo-project",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
@@ -11,6 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
   }
 }
